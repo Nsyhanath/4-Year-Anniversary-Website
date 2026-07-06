@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<title>HAPPY ANNIVERSARY BABYYY!!!</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<style>
+</style>
+<body>
+
+	<div class="paper">
+		<div class="loveletter">
+			<h1>Happy 4 Years Baby!</h1>
+			<p>
+				Hi my baby! I wanted to say thank you for everything that you have provided me. Your support, gifts and more importantly your love.
+				I could not ever asked for anything more because your love is what drives me to be better everyday. I have so much fun with you and I am so happy to have you.
+				To many more countless years together. I can't wait to create more countless memories together. I love you, Nathan.
+			</p>
+
+			<button onclick="showImage()">Press for your kiss</button>
+
+			<img id="kiss" src="kiss.jpg" alt="kiss">
+		</div>
+	</div>
+	<script>
+		function showImage() {
+			const image = document.getElementById("kiss");
+
+			if (image.style.display === "none" || image.style.display === "") {
+				image.style.display = "block";
+			} else {
+				image.style.display = "none";
+			}
+		}
+	</script>
+</body>
+</html>

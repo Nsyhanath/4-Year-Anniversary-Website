@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: red;
+    background-image: url("image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper {
+    position: relative;
+    padding: 40px;
+    width: 500px;
+    min-height: 350px;
+    overflow: hidden;
+}
+
+    .paper::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url("heart.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.5;
+        z-index: 0;
+    }
+
+.loveletter {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 500px;
+    min-height: 350px;
+    font-family: cursive;
+}
+
+.intro-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%) scale(1);
+    animation: shrinkToCenter 2s ease-in-out forwards;
+    z-index: 10;
+    border-radius: 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: pink;
+    font-family: cursive;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#kiss {
+    display: none;
+    margin: 25px auto 0 auto;
+    width: 250px;
+    border-radius: 15px;
+}
