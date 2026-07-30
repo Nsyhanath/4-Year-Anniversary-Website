@@ -19,8 +19,8 @@ body {
 .paper {
     position: relative;
     padding: 40px;
-    width: 600px;
-    min-height: 450px;
+    width: 700px;
+    min-height: 700px;
     overflow: hidden;
 }
 
@@ -40,7 +40,7 @@ body {
     position: relative;
     z-index: 1;
     text-align: center;
-    width: 400px;
+    width: 450px;
     min-height: 350px;
     font-family: cursive;
 }
