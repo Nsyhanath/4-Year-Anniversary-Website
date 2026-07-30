@@ -19,8 +19,8 @@ body {
 .paper {
     position: relative;
     padding: 40px;
-    width: 500px;
-    min-height: 350px;
+    width: 600px;
+    min-height: 450px;
     overflow: hidden;
 }
 
