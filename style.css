@@ -34,8 +34,8 @@ body {
         inset: 0;
         background-image: url("heart.png");
         background-repeat: no-repeat;
-        background-position: center;
         background-size: cover;
+        background-position: 45% center;
         opacity: 0.5;
         z-index: 0;
     }
