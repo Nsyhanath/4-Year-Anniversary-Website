@@ -19,34 +19,39 @@ body {
 .paper {
     position: relative;
     width: 700px;
-    min-height: 700px;
-    padding: 40px;
-    overflow: hidden;
+    height: 700px;
+    padding: 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: visible;
 }
 
-    .paper::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background-image: url("heart.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 45% center;
-        opacity: 0.5;
-        z-index: 0;
-    }
+.paper::before {
+    content: "";
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-image: url("heart.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.5;
+    z-index: 0;
+}
 
 .loveletter {
     position: relative;
     z-index: 1;
     text-align: center;
-    width: 450px;
-    min-height: 350px;
+
+    width: 440px;
+    margin-top: -80px;
+
     font-family: cursive;
+    font-size: 16px;
+    line-height: 1.25;
 }
 
 .intro-image {
