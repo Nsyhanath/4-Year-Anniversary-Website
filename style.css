@@ -18,10 +18,14 @@ body {
 
 .paper {
     position: relative;
-    padding: 40px;
     width: 700px;
     min-height: 700px;
+    padding: 40px;
     overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
     .paper::before {
