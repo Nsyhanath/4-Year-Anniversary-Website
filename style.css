@@ -18,8 +18,8 @@ body {
 
 .paper {
     position: relative;
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
     padding: 0;
 
     display: flex;
